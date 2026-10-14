@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Conheça a equipe, os serviços e as especialidades da MsClínica.">
+    <meta name="theme-color" content="#062b55">
+    <title>MsClínica | Cuidado para sua saúde</title>
+    <link rel="icon" href="assets/Imagem/logo/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1df782baf.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/CSS/syte.css">
+  </head>
+  <body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+    <header class="cabecalho">
+      <a class="logo" href="#inicio" aria-label="MsClínica - início">
+        <img src="assets/Imagem/logo/logo.png" alt="MsClínica">
+      </a>
+
+      <nav class="menu-principal" id="menu-principal" aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="empresa.html">Sobre nós</a>
+        <a href="servicos.html#especialidades">Especialidades</a>
+        <a href="medicos.html">Médicos</a>
+        <a href="depoimentos.html">Depoimentos</a>
+        <a href="blog.html">Blog</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <div class="icones-direita">
+        <a class="btn btn-agendar" href="contato.html#agendamento">Agendar consulta</a>
+        <button
+          class="menu-celular"
+          id="menu-celular"
+          type="button"
+          aria-label="Abrir menu"
+          aria-controls="menu-principal"
+          aria-expanded="false"
+        >
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="destaque" id="inicio" aria-label="Apresentação">
+        <div class="swiper msSlider">
+          <div class="swiper-wrapper">
+            <article class="swiper-slide slide slide-principal">
+              <div class="destaque-conteudo">
+                <div class="destaque-texto">
+                  <span class="sobrelinha">Cuidado próximo, atenção de verdade</span>
+                  <h1>Cuidamos da sua saúde em todas as fases da vida.</h1>
+                  <p>Encontre profissionais dedicados e um atendimento pensado para você e sua família.</p>
+                  <div class="destaque-acoes">
+                    <a class="btn" href="contato.html#agendamento">Agendar consulta <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a class="link-seta" href="servicos.html">Conheça nossos serviços</a>
+                  </div>
+                </div>
+                <div class="destaque-imagem">
+                  <img src="assets/Imagem/slide/item-1.png" alt="Ilustração de profissionais de saúde">
+                </div>
+              </div>
+            </article>
+            <article class="swiper-slide slide slide-secundario">
+              <div class="destaque-conteudo">
+                <div class="destaque-texto">
+                  <span class="sobrelinha">Uma equipe pronta para receber você</span>
+                  <h2>Seu bem-estar é o nosso compromisso.</h2>
+                  <p>Conte com uma equipe atenciosa para orientar você em cada etapa do cuidado.</p>
+                  <div class="destaque-acoes">
+                    <a class="btn" href="medicos.html">Conheça a equipe <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a class="link-seta" href="empresa.html">Saiba mais sobre a clínica</a>
+                  </div>
+                </div>
+                <div class="destaque-imagem">
+                  <img src="assets/Imagem/slide/item-2.png" alt="Ilustração de atendimento médico">
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-pagination" aria-label="Navegação dos destaques"></div>
+          <button class="swiper-button-prev" type="button" aria-label="Destaque anterior"></button>
+          <button class="swiper-button-next" type="button" aria-label="Próximo destaque"></button>
+        </div>
+      </section>
+
+      <section class="secao secao-servicos" id="servicos">
+        <div class="cabecalho-secao">
+          <span class="sobrelinha">Cuidado completo</span>
+          <h2>Serviços para cuidar bem de você</h2>
+          <p>Conheça algumas das formas como nossa equipe pode ajudar.</p>
+        </div>
+        <div class="grade-servicos">
+          <article class="cartao-servico">
+            <span class="icone-servico" aria-hidden="true"><i class="fa fa-heartbeat"></i></span>
+            <h3>Consulta médica</h3>
+            <p>Atendimento individualizado para entender suas necessidades e orientar os próximos passos.</p>
+            <a href="servicos.html">Saiba mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="cartao-servico">
+            <span class="icone-servico" aria-hidden="true"><i class="fa fa-stethoscope"></i></span>
+            <h3>Exames e prevenção</h3>
+            <p>Acompanhamento preventivo e orientação para manter sua saúde em dia.</p>
+            <a href="servicos.html">Saiba mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="cartao-servico">
+            <span class="icone-servico" aria-hidden="true"><i class="fa fa-user-md"></i></span>
+            <h3>Acompanhamento</h3>
+            <p>Continuidade no cuidado com atenção, escuta e acompanhamento profissional.</p>
+            <a href="servicos.html">Saiba mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="secao secao-sobre" id="sobre">
+        <div class="sobre-imagem">
+          <img src="assets/Imagem/empresa/sobre.png" alt="Ilustração sobre o atendimento da clínica" loading="lazy">
+          <span class="selo-sobre"><strong>Cuidado</strong><br>em primeiro lugar</span>
+        </div>
+        <div class="sobre-texto">
+          <span class="sobrelinha">Sobre a MsClínica</span>
+          <h2>Saúde com atenção e cuidado em cada detalhe.</h2>
+          <p>Acreditamos que um bom atendimento começa com escuta e respeito. Nossa equipe trabalha para oferecer uma experiência acolhedora e ajudar você a cuidar da sua saúde.</p>
+          <ul class="lista-beneficios">
+            <li><i class="fa fa-check-circle" aria-hidden="true"></i> Atendimento próximo e humanizado</li>
+            <li><i class="fa fa-check-circle" aria-hidden="true"></i> Profissionais dedicados</li>
+            <li><i class="fa fa-check-circle" aria-hidden="true"></i> Orientação clara em cada etapa</li>
+          </ul>
+          <a class="btn" href="contato.html">Fale com a nossa equipe <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </section>
+
+      <section class="secao secao-especialidades" id="especialidades">
+        <div class="cabecalho-secao">
+          <span class="sobrelinha">Nossas especialidades</span>
+          <h2>Encontre o cuidado de que precisa</h2>
+          <p>Consulte a equipe para conhecer os atendimentos e a disponibilidade.</p>
+        </div>
+        <div class="grade-especialidades">
+          <a class="cartao-especialidade" href="contato.html#agendamento"><i class="fa fa-heartbeat" aria-hidden="true"></i><span>Clínica geral</span><i class="fa fa-arrow-right seta-card" aria-hidden="true"></i></a>
+          <a class="cartao-especialidade" href="contato.html#agendamento"><i class="fa fa-child" aria-hidden="true"></i><span>Pediatria-teste</span><i class="fa fa-arrow-right seta-card" aria-hidden="true"></i></a>
+          <a class="cartao-especialidade" href="contato.html#agendamento"><i class="fa fa-eye" aria-hidden="true"></i><span>Oftalmologia-teste</span><i class="fa fa-arrow-right seta-card" aria-hidden="true"></i></a>
+          <a class="cartao-especialidade" href="contato.html#agendamento"><i class="fa fa-plus-square" aria-hidden="true"></i><span>Cardiologia-teste</span><i class="fa fa-arrow-right seta-card" aria-hidden="true"></i></a>
+          <a class="cartao-especialidade" href="contato.html#agendamento"><i class="fa fa-smile-o" aria-hidden="true"></i><span>Odontologia</span><i class="fa fa-arrow-right seta-card" aria-hidden="true"></i></a>
+          <a class="cartao-especialidade" href="contato.html#agendamento"><i class="fa fa-medkit" aria-hidden="true"></i><span>Exames preventivos</span><i class="fa fa-arrow-right seta-card" aria-hidden="true"></i></a>
+        </div>
+      </section>
+
+      <section class="secao secao-medicos" id="medicos">
+        <div class="cabecalho-secao">
+          <span class="sobrelinha">Nossa equipe</span>
+          <h2>Profissionais que cuidam de pessoas</h2>
+          <p>Fale com a equipe para consultar os profissionais, especialidades e horários disponíveis.</p>
+        </div>
+        <div class="equipe-destaque">
+          <img src="assets/Imagem/medicos/bg-medicos.png" alt="" loading="lazy">
+          <div>
+            <span class="sobrelinha">Atendimento com atenção</span>
+            <h3>Um cuidado pensado para cada pessoa.</h3>
+            <p>Consulte a recepção para saber quem poderá acompanhar você e quando há horários disponíveis.</p>
+            <a class="btn" href="medicos.html">Consultar profissionais <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao secao-depoimentos" id="depoimentos">
+        <div class="cabecalho-secao">
+          <span class="sobrelinha">Experiências de cuidado</span>
+          <h2>Um espaço para ouvir quem confia na gente</h2>
+          <p>Relatos de pacientes só devem ser publicados com autorização expressa.</p>
+        </div>
+        <div class="depoimentos-vazio">
+          <i class="fa fa-comments-o" aria-hidden="true"></i>
+          <h3>Em breve, relatos reais de pacientes</h3>
+          <p>Este espaço será atualizado pela clínica quando houver depoimentos autorizados para publicação.</p>
+        </div>
+      </section>
+
+      <section class="secao secao-blog" id="blog">
+        <div class="cabecalho-secao cabecalho-blog">
+          <div><span class="sobrelinha">Informação e saúde</span><h2>Conteúdos para inspirar o cuidado</h2></div>
+          <a class="link-seta" href="blog.html">Ver todos os artigos <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="grade-blog">
+          <article class="cartao-blog">
+            <a class="blog-imagem" href="blog.html"><img src="assets/Imagem/blog/noticia-1.jpg" alt="" loading="lazy"></a>
+            <div class="blog-info"><span>Bem-estar</span><h3>Pequenos hábitos que ajudam a cuidar da saúde</h3><p>Converse com um profissional para receber orientações adequadas a você.</p><a href="blog.html">Leia mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+          </article>
+          <article class="cartao-blog">
+            <a class="blog-imagem" href="blog.html"><img src="assets/Imagem/blog/noticia-2.jpg" alt="" loading="lazy"></a>
+            <div class="blog-info"><span>Prevenção</span><h3>A importância de manter seus exames em dia</h3><p>O acompanhamento recomendado depende da sua idade e do seu histórico.</p><a href="blog.html">Leia mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+          </article>
+          <article class="cartao-blog">
+            <a class="blog-imagem" href="blog.html"><img src="assets/Imagem/blog/noticia-3.jpg" alt="" loading="lazy"></a>
+            <div class="blog-info"><span>Vida saudável</span><h3>Como preparar sua próxima consulta</h3><p>Anote suas dúvidas e conte ao profissional como você está se sentindo.</p><a href="blog.html">Leia mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+          </article>
+        </div>
+        <p class="aviso-conteudo">Conteúdo informativo não substitui avaliação e orientação de um profissional de saúde.</p>
+      </section>
+
+      <section class="faixa-agendamento">
+        <div>
+          <span class="sobrelinha">Agende seu atendimento</span>
+          <h2>Estamos aqui para ajudar você a cuidar da sua saúde.</h2>
+          <p>Fale com a nossa equipe para consultar os horários e organizar seu atendimento.</p>
+        </div>
+        <a class="btn btn-claro" href="contato.html#agendamento">Solicitar contato <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+      </section>
+    </main>
+
+    <footer class="rodape" id="contato">
+      <div class="rodape-principal">
+        <div class="rodape-marca">
+          <a class="logo logo-rodape" href="#inicio"><img src="assets/Imagem/logo/logo.png" alt="MsClínica"></a>
+          <p>Cuidado próximo e atenção à saúde em cada fase da vida.</p>
+          <a class="link-seta" href="contato.html#agendamento">Agendar consulta <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="rodape-links">
+          <h2>Navegação</h2>
+          <a href="empresa.html">Sobre nós</a><a href="servicos.html">Serviços</a><a href="servicos.html#especialidades">Especialidades</a><a href="medicos.html">Médicos</a>
+        </div>
+        <div class="rodape-links">
+          <h2>Informações</h2>
+          <a href="depoimentos.html">Depoimentos</a><a href="blog.html">Blog</a><a href="contato.html#agendamento">Agendamento</a><a href="contato.html">Contato</a>
+        </div>
+        <div class="rodape-contato">
+          <h2>Fale com a equipe</h2>
+          <p>Use o formulário de contato para solicitar informações e horários.</p>
+          <a class="btn btn-agendar" href="contato.html#agendamento">Solicitar atendimento</a>
+        </div>
+      </div>
+      <div class="rodape-final">
+        <p>© <span id="ano-atual"></span> MsClínica. Todos os direitos reservados.</p>
+        <a href="#inicio">Voltar ao início ↑</a>
+      </div>
+    </footer>
+
+    <script src="assets/JS/config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/JS/ms.js"></script>
+  </body>
+</html>

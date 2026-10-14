@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Entre em contato com a equipe da MsClínica para consultar serviços e horários.">
+    <title>Contato e agendamento | MsClínica</title>
+    <link rel="icon" href="assets/Imagem/logo/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <script src="https://kit.fontawesome.com/c1df782baf.js"></script>
+    <link rel="stylesheet" href="assets/CSS/syte.css">
+  </head>
+  <body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+    <header class="cabecalho">
+      <a class="logo" href="index.html" aria-label="MsClínica - início"><img src="assets/Imagem/logo/logo.png" alt="MsClínica"></a>
+      <nav class="menu-principal" id="menu-principal" aria-label="Menu principal">
+        <a href="index.html">Início</a><a href="servicos.html">Serviços</a><a href="empresa.html">Sobre nós</a><a href="servicos.html#especialidades">Especialidades</a><a href="medicos.html">Médicos</a><a href="depoimentos.html">Depoimentos</a><a href="blog.html">Blog</a><a href="contato.html" aria-current="page">Contato</a>
+      </nav>
+      <div class="icones-direita"><a class="btn btn-agendar" href="#agendamento">Agendar consulta</a><button class="menu-celular" id="menu-celular" type="button" aria-label="Abrir menu" aria-controls="menu-principal" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i></button></div>
+    </header>
+    <main id="conteudo">
+      <section class="pagina-topo"><div><nav class="migalhas" aria-label="Caminho da página"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Contato</span></nav><span class="sobrelinha">Conte com a gente</span><h1>Vamos conversar sobre o seu atendimento.</h1><p>Envie uma solicitação de contato. A equipe poderá confirmar serviços e horários disponíveis.</p></div></section>
+      <section class="secao contato-layout" id="agendamento">
+        <div class="contato-texto"><span class="sobrelinha">Fale com a MsClínica</span><h2>Como podemos ajudar?</h2><p>Preencha os dados básicos e continue a conversa com a clínica pelo WhatsApp. Não envie informações clínicas ou dados de saúde pelo formulário.</p><div class="nota-privacidade"><i class="fa fa-lock" aria-hidden="true"></i><span>Seus dados serão usados somente para preparar a mensagem de contato. Esta página não armazena nem envia os dados a um servidor.</span></div></div>
+        <form class="form-agendamento form-contato" id="form-agendamento">
+          <label for="nome-agendamento">Nome</label>
+          <input id="nome-agendamento" name="nome" autocomplete="name" maxlength="100" required>
+          <label for="telefone-agendamento">Telefone com DDD</label>
+          <input id="telefone-agendamento" name="telefone" type="tel" autocomplete="tel" minlength="10" maxlength="30" placeholder="(11) 99999-9999" required>
+          <label for="servico-agendamento">Assunto</label>
+          <select id="servico-agendamento" name="servico" required>
+            <option value="">Selecione um assunto</option>
+            <option>Agendamento de consulta</option>
+            <option>Informações sobre serviços</option>
+            <option>Informações sobre especialidades</option>
+            <option>Outro assunto</option>
+          </select>
+          <label class="consentimento"><input type="checkbox" required><span>Concordo em abrir uma conversa no WhatsApp com os dados informados acima.</span></label>
+          <button class="btn btn-claro" type="submit">Continuar pelo WhatsApp <i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <small>O WhatsApp comercial deve estar configurado pela clínica para que o botão possa abrir a conversa.</small>
+        </form>
+      </section>
+      <section class="chamada-pagina"><div><span class="sobrelinha">Precisa de orientação médica?</span><h2>Procure um profissional habilitado para avaliação individual.</h2></div><a class="btn btn-claro" href="servicos.html">Conheça os serviços <i class="fa fa-arrow-right" aria-hidden="true"></i></a></section>
+    </main>
+    <footer class="rodape">
+      <div class="rodape-principal"><div class="rodape-marca"><a class="logo logo-rodape" href="index.html"><img src="assets/Imagem/logo/logo.png" alt="MsClínica"></a><p>Cuidado próximo e atenção à saúde em cada fase da vida.</p><a class="link-seta" href="#agendamento">Agendar consulta <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div><div class="rodape-links"><h2>Navegação</h2><a href="empresa.html">Sobre nós</a><a href="servicos.html">Serviços</a><a href="medicos.html">Médicos</a><a href="blog.html">Blog</a></div><div class="rodape-links"><h2>Informações</h2><a href="depoimentos.html">Depoimentos</a><a href="servicos.html#especialidades">Especialidades</a><a href="contato.html">Contato</a></div><div class="rodape-contato"><h2>Fale com a equipe</h2><p>Solicite informações e horários pelo formulário acima.</p><a class="btn btn-agendar" href="#agendamento">Solicitar atendimento</a></div></div>
+      <div class="rodape-final"><p>© <span id="ano-atual"></span> MsClínica. Todos os direitos reservados.</p><a href="#conteudo">Voltar ao início ↑</a></div>
+    </footer>
+    <script src="assets/JS/config.js"></script><script src="assets/JS/ms.js"></script>
+  </body>
+</html>
