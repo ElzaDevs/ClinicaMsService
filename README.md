@@ -25,6 +25,8 @@ oferece antes de publicar.
 
 ## Executar
 
+Pode estar abrindo: `https://elzadevs.github.io/ClinicaMsService/`
+
 Abra `index.html` no navegador ou inicie um servidor local na pasta do projeto:
 
 ```powershell
